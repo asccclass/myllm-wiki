@@ -48,7 +48,7 @@ Codex 使用者需在取得授權後，將替換 Vault 路徑後的 `hooks/wiki-
 ## Vault 結構
 
 ```text
-raw/<domain>/   原始資料（人管理，LLM 僅讀取；不納入 git）
+raw/<domain>/   原始資料（由人管理，LLM 僅讀取；可不納入 git）
 raw/assets/     原始資料使用的附件
 wiki/sources/   每份資料的摘要與原始路徑
 wiki/entities/  人、組織、設備、系統、產品
