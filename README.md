@@ -29,15 +29,15 @@ SessionStart 會注入「工作前先參考 Wiki、工作後先建議記錄」�
 Claude Code：
 
 ```text
-/plugin marketplace add DHKIM0207/llm-wiki-kit
-/plugin install llm-wiki@llm-wiki-kit
+/plugin marketplace add asccclass/myllm-wiki
+/plugin install myllm-wiki
 ```
 
 Codex CLI：
 
 ```bash
-codex plugin marketplace add DHKIM0207/llm-wiki-kit
-codex plugin add llm-wiki@llm-wiki-kit
+codex plugin marketplace add asccclass/myllm-wiki
+codex plugin add myllm-wiki
 codex plugin list
 ```
 
