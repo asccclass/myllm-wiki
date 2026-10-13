@@ -1,0 +1,29 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\"",
+            "shell": "bash",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"壓縮前——請確認是否有需要保留在 Wiki 的工作。\", \"hookSpecificOutput\": {\"hookEventName\": \"PreCompact\", \"additionalContext\": \"內容即將壓縮。如果到目前為止的工作中有值得保留在 Wiki 的內容（解決反覆出現的問題、發現環境特性、設計決策或長時間除錯），請向使用者建議使用 wiki-log 記錄；若沒有，請不要提及。\"}}'",
+            "shell": "bash",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

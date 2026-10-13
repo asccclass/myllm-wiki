@@ -1,0 +1,16 @@
+# Obsidian——裝置專屬狀態，不同步
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# 原始資料——不可變層，不提交 Git
+raw/
+
+# 代理本機設定
+.claude/settings.local.json
+
+# 作業系統
+.DS_Store
+Thumbs.db
+desktop.ini
