@@ -12,5 +12,14 @@
     "myllm-wiki",
     "notes"
   ],
+  "interface": {
+    "displayName": "LLM Wiki",
+    "shortDescription": "由 LLM 管理的 Obsidian 知識 Wiki",
+    "longDescription": "在匯入資料時整合既有頁面、建立交叉連結並保留來源，協助 LLM 管理可持續累積的 Obsidian 知識 Wiki。",
+    "developerName": "asccclass",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["建立 LLM Wiki", "匯入資料到 Wiki", "檢查 Wiki 健康狀態"]
+  },
   "skills": "./skills/"
 }

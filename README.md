@@ -37,7 +37,7 @@ Codex CLI：
 
 ```bash
 codex plugin marketplace add asccclass/myllm-wiki
-codex plugin add myllm-wiki
+codex plugin install myllm-wiki@myllm-wiki
 codex plugin list
 ```
 
