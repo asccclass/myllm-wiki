@@ -7,8 +7,8 @@ description: 當新文件、文章、論文、會議筆記、公告或報告放�
 
 ## 找到 Vault
 
-1. 讀取工作階段內容中的 `LLM Wiki Vault:` 路徑。
-2. 若沒有，讀取 `~/.claude/llm-wiki/vault-path` 第一行。
+1. 讀取工作階段內容中的 `myllm-wiki Vault:` 路徑。
+2. 若沒有，讀取 `~/.claude/myllm-wiki/vault-path` 第一行。
 3. 若仍沒有，確認目前目錄根部是否有 `AGENTS.md`（或 `CLAUDE.md`）與 `wiki/index.md`。
 4. 都沒有時停止，建議使用 `wiki-init`。
 

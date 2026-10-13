@@ -7,7 +7,7 @@ description: 當任何專案的程式代理工作產生值得記住的內容時�
 
 ## 找到 Vault
 
-依序讀取工作階段中的 `LLM Wiki Vault:`、`~/.claude/llm-wiki/vault-path` 第一行，或確認目前目錄有 `AGENTS.md`（或 `CLAUDE.md`）與 `wiki/index.md`。都找不到時停止並建議 `wiki-init`。所有路徑都使用絕對路徑。
+依序讀取工作階段中的 `myllm-wiki Vault:`、`~/.claude/myllm-wiki/vault-path` 第一行，或確認目前目錄有 `AGENTS.md`（或 `CLAUDE.md`）與 `wiki/index.md`。都找不到時停止並建議 `wiki-init`。所有路徑都使用絕對路徑。
 
 ## 核心原則
 

@@ -5,7 +5,7 @@ description: 當使用者要建立新的 LLM Wiki Vault、首次設定外掛或�
 
 # Wiki 初始化（Init）
 
-建立 Vault 骨架，並將絕對路徑註冊至 `~/.claude/llm-wiki/vault-path`。SessionStart Hook 會讀取它並注入規則；不要修改全域 `CLAUDE.md`。
+建立 Vault 骨架，並將絕對路徑註冊至 `~/.claude/myllm-wiki/vault-path`。SessionStart Hook 會讀取它並注入規則；不要修改全域 `CLAUDE.md`。
 
 ## 流程
 
@@ -13,7 +13,7 @@ description: 當使用者要建立新的 LLM Wiki Vault、首次設定外掛或�
 2. 目標資料夾存在且非空時停止並顯示狀態；不可覆蓋既有檔案。
 3. 複製 `template/`，將 `gitignore` 改名為 `.gitignore`，替換 `{{VAULT_NAME}}`、`{{TODAY}}`、`{{DOMAINS}}`、`{{DOMAIN_DIRS}}`，建立 `raw/`、領域子資料夾與 `raw/assets/`。
 4. 詢問是否初始化 Git；同意時執行 `git init` 與首次提交。遠端連結與推送由使用者處理。
-5. 在 `~/.claude/llm-wiki/vault-path` 寫入一行絕對路徑。Codex 使用者須先取得授權，才能將規則加入 `~/.codex/AGENTS.md`。
+5. 在 `~/.claude/myllm-wiki/vault-path` 寫入一行絕對路徑。Codex 使用者須先取得授權，才能將規則加入 `~/.codex/AGENTS.md`。
 
 ## 使用
 

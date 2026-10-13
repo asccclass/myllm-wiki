@@ -1,6 +1,6 @@
 ---
 name: wiki-init
-description: 當使用者想要建立新的 LLM Wiki Vault（保管庫）、首次設定 llm-wiki 外掛程式，或連結現有 Vault 時使用 — 例如「幫我建立 Wiki」、「啟動 LLM Wiki」、「初始化 Vault」、「設定 Wiki 路徑」。當其他 Wiki Skill 找不到 Vault 路徑時也可使用。
+description: 當使用者想要建立新的 LLM Wiki Vault（保管庫）、首次設定 myllm-wiki 外掛程式，或連結現有 Vault 時使用 — 例如「幫我建立 Wiki」、「啟動 LLM Wiki」、「初始化 Vault」、「設定 Wiki 路徑」。當其他 Wiki Skill 找不到 Vault 路徑時也可使用。
 ---
 
 # Wiki 初始化 (Init)
@@ -8,7 +8,7 @@ description: 當使用者想要建立新的 LLM Wiki Vault（保管庫）、首�
 ## 核心原則
 
 **建立 Vault 骨架，並將 Vault 路徑註冊到單一檔案中。**
-路徑檔案：`~/.claude/llm-wiki/vault-path`（若使用 `CLAUDE_CONFIG_DIR`，則位於其下方）。內容為一行絕對路徑。
+路徑檔案：`~/.claude/myllm-wiki/vault-path`（若使用 `CLAUDE_CONFIG_DIR`，則位於其下方）。內容為一行絕對路徑。
 
 外掛程式的 SessionStart Hook 在每個工作階段（Session）都會讀取此檔案，將 Vault 路徑與「優先參考／優先建議記錄」規則（`hooks/wiki-rules.md`）載入至 Context 中。**請勿動到全域的 CLAUDE.md。**
 

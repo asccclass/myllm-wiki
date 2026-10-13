@@ -1,6 +1,6 @@
 # {{VAULT_NAME}} — LLM 管理的知識庫
 
-此儲存庫是 Obsidian Vault，也是由 LLM 管理的 Wiki。本檔案定義結構、頁面格式與不可違反的規則；流程由 `llm-wiki` 外掛 Skill 負責。`CLAUDE.md` 只匯入本檔案。
+此儲存庫是 Obsidian Vault，也是由 LLM 管理的 Wiki。本檔案定義結構、頁面格式與不可違反的規則；流程由 `myllm-wiki` 外掛 Skill 負責。`CLAUDE.md` 只匯入本檔案。
 
 ## 分工與結構
 

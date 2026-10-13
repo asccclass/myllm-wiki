@@ -2,7 +2,7 @@
 
 LLM Wiki Vault：`{{VAULT_PATH}}`
 
-`llm-wiki` 外掛 Skill（`wiki-query`、`wiki-log`、`wiki-ingest`、`wiki-lint`）使用上述路徑作為 Vault。
+`myllm-wiki` 外掛 Skill（`wiki-query`、`wiki-log`、`wiki-ingest`、`wiki-lint`）使用上述路徑作為 Vault。
 
 ### 工作參考 ← Wiki
 

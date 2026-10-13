@@ -6,9 +6,9 @@ set -u
 
 HOOK_DIR="$(cd "$(dirname "$0")" && pwd)"
 CONFIG_DIR="${CLAUDE_CONFIG_DIR:-$HOME/.claude}"
-PATH_FILE="$CONFIG_DIR/llm-wiki/vault-path"
+PATH_FILE="$CONFIG_DIR/myllm-wiki/vault-path"
 
-vault="${LLM_WIKI_VAULT:-}"
+vault="${MYLLM_WIKI_VAULT:-}"
 if [ -z "$vault" ] && [ -f "$PATH_FILE" ]; then
   IFS= read -r vault < "$PATH_FILE" || true
 fi
@@ -25,7 +25,7 @@ if [ -n "$vault" ]; then
     context+="$line"$'\n'
   done < "$HOOK_DIR/wiki-rules.md"
 else
-  context="llm-wiki 外掛已安裝，但尚未設定 Vault。使用者提到 Wiki 時，請引導其使用 wiki-init Skill 建立 Vault 或註冊路徑；其他情況不要提及此事。"
+  context="myllm-wiki 外掛已安裝，但尚未設定 Vault。使用者提到 Wiki 時，請引導其使用 wiki-init Skill 建立 Vault 或註冊路徑；其他情況不要提及此事。"
 fi
 
 escape_for_json() {
