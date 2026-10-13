@@ -1,9 +1,15 @@
 {
-  "name": "llm-wiki",
+  "name": "myllm-wiki",
   "description": "由 LLM 管理的 Obsidian 知識 Wiki：建立 Vault、匯入資料、查詢、檢查與工作記錄",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "author": {
-    "name": "DHKIM0207"
+    "name": "asccclass"
   },
-  "keywords": ["wiki", "obsidian", "knowledge-base", "llm-wiki", "notes"]
+  "keywords": [
+    "wiki",
+    "obsidian",
+    "knowledge-base",
+    "myllm-wiki",
+    "notes"
+  ]
 }

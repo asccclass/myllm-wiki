@@ -1,17 +1,17 @@
 {
-  "name": "llm-wiki-kit",
+  "name": "myllm-wiki",
   "description": "LLM Wiki 外掛發布市集",
   "owner": {
-    "name": "DHKIM0207"
+    "name": "asccclass"
   },
   "plugins": [
     {
-      "name": "llm-wiki",
+      "name": "myllm-wiki",
       "description": "由 LLM 管理的 Obsidian 知識 Wiki：建立 Vault、匯入資料、查詢、檢查與工作記錄",
-      "version": "0.1.0",
+      "version": "0.0.1",
       "source": "./",
       "author": {
-        "name": "DHKIM0207"
+        "name": "asccclass"
       }
     }
   ]
